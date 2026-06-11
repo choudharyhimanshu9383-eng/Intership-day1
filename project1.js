@@ -30,7 +30,7 @@ test();
 // Output: ReferenceError
 // Q3 Create a nested function structure of 4 levels and print variables from all parent scopes
 
-function level1() {
+function level1() { 
     let a = 1;
 
     function level2() {
@@ -167,7 +167,6 @@ function parent() {
 
     child();
 
-    // console.log(x); // Error
 }
 
 parent();
