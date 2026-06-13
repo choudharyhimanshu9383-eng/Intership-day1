@@ -1,0 +1,52 @@
+<script></script>
+
+const ul =
+document.getElementById("list");
+
+ul.addEventListener(
+    "click",
+    (e)=>{
+
+        if(
+            e.target.tagName === "LI"
+        ){
+
+            console.log(
+                e.target.textContent
+            );
+
+        }
+    }
+);
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<ul id="list">
+    <li>Apple</li>
+    <li>Mango</li>
+</ul>
+Question 37
+// Question 37
+// Paragraph text change
+
+const p =
+document.querySelector("#para");
+
+p.textContent =
+"Welcome Himanshu";
+
+p.style.backgroundColor =
+"yellow";
+HTML
+<p id="para">
+Hello
+</p>

@@ -392,3 +392,13 @@ class Dog extends Animal {
         console.log("Barking");
     }
 }
+//// day 4
+console.log("a");
+try{
+    console.log("user.name");
+
+}catch{
+    comsole.log("handled succesfully")
+
+}
+console.log("b")
